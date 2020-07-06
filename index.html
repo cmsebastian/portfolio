@@ -5,14 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-dark">
+    <div class="wrapper">
+    
+        <section id="header">
+            <header>
 
+                <div class="jumbotron jumbotron-fluid mb-0 py-2 bg-dark headText">
+                    <div class="container">
+                        <h1 id="headTitle" class="display-4 container-xs">chris sebastian</h1>
+                        <p id="headSubtitle" class="h5">Full-Stack Web Developer</p>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0 border-0 bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon btn btn-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul id="navLinks" class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a id="homeButton" class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="portfolioButton" class="nav-link active" href="#">Portfolio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="contactButton" class="nav-link active" href="#">Contact </a>
+                            </li>
+                            <!-- FUTURE DEV//DROPDOWN OF PAST PROJECTS -->
+
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li> -->
+
+                        </ul>
+                        <!-- FUTURE DEVELOPMENT//SEARCH BAR CODE -->
+
+                        <!-- <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </nav>
+
+            </header>
+        </section>
+    <!-- opening page with bio -->
+        <section id="homePage" class="container">
+
+            <div class="row  justify-content-center my-3 mx-2">
+                <div class="col-6 align-self-center">
+                    <div class="card">
+                        <img src="assets/images/profile-pic-placeholder.png" alt="Profile Image." class="profileImage">
+                    </div>
+                </div>    
+                <div class="col bio">    
+                    <div class="card-body">
+                        <h5 class="card-title">ABOUT ME</h5>
+                        <p class="card-text">I first began my developer journey at the University of California Riverside, Extension, where I took their Full-Stack Web Development Coding Bootcamp, learning technologies for both the front and back-end.</p>
+                        <p class="card-text">In my personal life I spend my time making music and playing disc golf.</p>
+                    </div>
+
+                </div> 
+            </div>
+
+
+        </section>
+    <!-- past works grid layout -->
+        <section id="portfolio"></section>
+
+        <section id="contact"></section>
+
+        <section id="footer">
+            <footer>
+                <div class="row">
+                    <div class="col">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <p class="card-text">Created by Chris Sebastian.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+    </div>
     <script src="assets/js/script.js"></script>    
 </body>
 </html>

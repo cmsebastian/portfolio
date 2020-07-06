@@ -1,0 +1,77 @@
+body {
+    font-family: font-family: 'Roboto', sans-serif;
+    /* background-image: url(../images/coding-img-lg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    /* background-color: #292b2c;  */
+}
+
+.jumbotron {
+    background-image: url(../images/coding-img-lg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646; 
+}
+
+.navbar {
+    /* background-color: #292b2c; */
+}
+
+.headText {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#navLinks {
+    color: white;
+}
+
+#headTitle {
+    font-weight: 500;
+    color: white;
+}
+
+#headSubtitle {
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+}
+
+#homeButton {
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#portfolioButton {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#contactButton {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.bio {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.profileImage :{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
