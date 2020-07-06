@@ -63,15 +63,15 @@ body {
 }
 
 .profileImage :{
-    max-height: 300px;
-    max-width: 300px;
-}
+    /* max-height: 300px;
+    width: 100%;
+} */
 
 footer {
     bottom: 0;
     left: 0;
     right: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     text-align: center;
 }
