@@ -62,10 +62,29 @@ body {
     text-shadow: 1px 1px black;
 }
 
-.profileImage :{
-    /* max-height: 300px;
-    width: 100%;
-} */
+.profileImage
+
+
+#homePage {
+    display: none;
+}
+
+.lightText {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.darkText {
+    color: black;
+    text-shadow: 1px 1px gray;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+}
 
 footer {
     bottom: 0;
