@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Sebastian Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="pageContainer">
+        <div class="wrapper">
+            <section id="header">
+                <header>
+
+                    <nav class="navbar navbar-expand-sm navbar-light bg-transparent mt-0 border-0">
+                        <a id="brand" class="navbar-brand navText" href="home.html">CHRIS SEBASTIAN</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon btn btn-light"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul id="navLinks" class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a id="homeButton" class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="portfolioButton" class="nav-link" href="portfolio.html">Portfolio </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="contactButton" class="nav-link" href="contact.html">Contact </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </nav>
+
+                </header>
+            </section>
+            <section id="portfolio" class="container justify-content-center">
+
+                <div class="row m-auto">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#portfolioCarousel" data-slide-to="1"></li>
+                                        <li data-target="#portfolioCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <h3 class="card-title py-4 pl-5">Past Projects</h3>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <a href="https://rahme.github.io/Spot-A-Show/" target="_blank"><img class="d-block w-100" src="assets/images/Spot-a-Show (1).png" alt=""></a>
+                                            <div class="carousel-caption lightText">
+                                                <h3>Spot-a-Show</h3>
+                                                <!-- <p>A deployed application that let's a user search for and Artist's top three tracks and next three upcoming shows. This was a collabrorative effort, created with fellow Bootcamp classmates.</p> -->
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="https://cmsebastian.github.io/weather-dashboard-api/" target="_blank"><img class="d-block w-100" src="assets/images/WeatherDashboardAPI.png" alt="Screenshot of Weather Dashboard App."></a>
+                                            <div class="carousel-caption darkText">
+                                                <h3 class="contrastText">Weather Dashboard</h3>
+                                                <!-- <p>An application that allows a user to search for a city and receive current weather along with a five day forecast.</p> -->
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="https://cmsebastian.github.io/password.generator/" target="_blank"><img class="d-block w-100" src="assets/images/PasswordGenerator.png" alt="Screenshot of Password Generator app."></a>
+                                            <div class="carousel-caption darkText">
+                                                <h3>Password Generator</h3>
+                                                <!-- <p>An application that allows a user to choose attributes for a secure, randomly generated password such as: length, and inclusion of upper and lower case letters, numbers and special characters. </p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                        
+                <!-- make a dection caption only carousel -->
+    
+            </section>
+            <section id="footer" class="container-fluid">
+                <footer class="card bg-transparent border-0">
+                    <div class="card-body">
+                        <h6>© 2020 | CHRIS SEBASTIAN</h6>
+                    </div>
+                </footer>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
